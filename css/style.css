@@ -1,0 +1,40 @@
+* {
+    margin: 0px 50px;
+    padding: 0%;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+
+}
+header{
+    height: 100px;
+    background-color: #39A2DB;
+    font-size: 30px;
+    text-align: center;
+}
+
+form{
+    border: 1px solid black;
+    width: 600px;
+
+}
+form input[type = text], form select{
+    width: 80%;
+}
+
+form input[type = submit]{
+    width: 80px;
+}
+
+img{
+    width: 100px;
+
+}
+
+table td {
+    width: 100px;
+    text-align: center;
+}
