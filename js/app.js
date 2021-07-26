@@ -1,4 +1,4 @@
-// 'use strict;'
+ 'use strict;'
 
 let form = document.getElementById('filmForm');
 let table = document.getElementById('ls');
@@ -10,8 +10,7 @@ function getData() {
     let data = localStorage.getItem('film');
     if (data) {
         Film.all = JSON.parse(data);
-        // console.log(data);
-        // console.log(Film.all);
+      
     }
 }
 
